@@ -10,6 +10,8 @@ abstract_target 'TwilioVoice' do
   
   target 'CallingApp' do
     pod 'Koloda'
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
     platform :ios, '10.0'
     project 'CallingApp.xcproject'
   end

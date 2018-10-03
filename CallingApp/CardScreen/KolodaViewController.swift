@@ -68,8 +68,10 @@ extension KolodaViewController: KolodaViewDelegate {
     
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
         //UIApplication.shared.openURL(URL(string: "https://yalantis.com/")!)
-        let callViewController = self.storyboard?.instantiateViewController(withIdentifier: "callController")
-        self.present(callViewController!, animated: true, completion: nil)
+//        let callViewController = self.storyboard?.instantiateViewController(withIdentifier: "callViewController")
+//        self.present(callViewController!, animated: true, completion: nil)
+        let detailViewController = self.storyboard?.instantiateViewController(withIdentifier: "detailViewController")
+        self.present(detailViewController!, animated: true, completion: nil)
 
     }
 

@@ -13,7 +13,8 @@
 		24BA343E1D874AC800B0B4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA343D1D874AC800B0B4F7 /* Assets.xcassets */; };
 		24BA34411D874AC800B0B4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA343F1D874AC800B0B4F7 /* LaunchScreen.storyboard */; };
 		24BA34491D874BBD00B0B4F7 /* TwilioLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA34481D874BBD00B0B4F7 /* TwilioLogo.png */; };
-		320EE0A3A71471EE8BA003F2 /* Pods_TwilioVoice_SwiftVoiceCallKitQuickstart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61AF8C1ECD26F3995E5F472 /* Pods_TwilioVoice_SwiftVoiceCallKitQuickstart.framework */; };
+		8748B490213DE3A500D1F62C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748B48F213DE3A500D1F62C /* LocationViewController.swift */; };
+		8748B492213DE96900D1F62C /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748B491213DE96900D1F62C /* CardDetailViewController.swift */; };
 		87A929AE212D55C600E05C5D /* KolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A929A5212D55C500E05C5D /* KolodaViewController.swift */; };
 		87A929AF212D55C600E05C5D /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A929A6212D55C500E05C5D /* CustomOverlayView.xib */; };
 		87A929B0212D55C600E05C5D /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A929A7212D55C500E05C5D /* CustomOverlayView.swift */; };
@@ -22,6 +23,9 @@
 		87A929B4212D55C600E05C5D /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A929AB212D55C600E05C5D /* ExampleOverlayView.swift */; };
 		87A929B5212D55C600E05C5D /* LoginTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A929AC212D55C600E05C5D /* LoginTypeCell.swift */; };
 		87A929B6212D55C600E05C5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A929AD212D55C600E05C5D /* LoginViewController.swift */; };
+		87C0EE932154422F002B4C8A /* AddContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0EE922154422F002B4C8A /* AddContactCell.swift */; };
+		87C0EE9521544BFB002B4C8A /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0EE9421544BFB002B4C8A /* ContactCell.swift */; };
+		87F58D62214B20D400E098C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F58D61214B20D400E098C2 /* ProfileViewController.swift */; };
 		F612FBD0E2291A21F01A2380 /* Pods_TwilioVoice_CallingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3026E2B6D353E195E3308CD /* Pods_TwilioVoice_CallingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,8 @@
 		24BA344A1D874D2B00B0B4F7 /* SwiftVoiceCallKitQuickstart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftVoiceCallKitQuickstart.entitlements; sourceTree = "<group>"; };
 		3ABBE58CA37C91EF96D7A4DE /* Pods-TwilioVoice-CallingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVoice-CallingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVoice-CallingApp/Pods-TwilioVoice-CallingApp.release.xcconfig"; sourceTree = "<group>"; };
 		550B9D0C75DC5C920B2C0BDA /* Pods-TwilioVoice-SwiftVoiceCallKitQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVoice-SwiftVoiceCallKitQuickstart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVoice-SwiftVoiceCallKitQuickstart/Pods-TwilioVoice-SwiftVoiceCallKitQuickstart.release.xcconfig"; sourceTree = "<group>"; };
+		8748B48F213DE3A500D1F62C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		8748B491213DE96900D1F62C /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 		87A929A5212D55C500E05C5D /* KolodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaViewController.swift; sourceTree = "<group>"; };
 		87A929A6212D55C500E05C5D /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
 		87A929A7212D55C500E05C5D /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,9 @@
 		87A929AB212D55C600E05C5D /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
 		87A929AC212D55C600E05C5D /* LoginTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTypeCell.swift; sourceTree = "<group>"; };
 		87A929AD212D55C600E05C5D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87C0EE922154422F002B4C8A /* AddContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactCell.swift; sourceTree = "<group>"; };
+		87C0EE9421544BFB002B4C8A /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		87F58D61214B20D400E098C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BA75671F6EE65475ED2E3C36 /* Pods-TwilioVoice-CallingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVoice-CallingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVoice-CallingApp/Pods-TwilioVoice-CallingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C61AF8C1ECD26F3995E5F472 /* Pods_TwilioVoice_SwiftVoiceCallKitQuickstart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwilioVoice_SwiftVoiceCallKitQuickstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA45A26AF2E36A81C6F5CDEF /* Pods-TwilioVoice-SwiftVoiceCallKitQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVoice-SwiftVoiceCallKitQuickstart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVoice-SwiftVoiceCallKitQuickstart/Pods-TwilioVoice-SwiftVoiceCallKitQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320EE0A3A71471EE8BA003F2 /* Pods_TwilioVoice_SwiftVoiceCallKitQuickstart.framework in Frameworks */,
 				F612FBD0E2291A21F01A2380 /* Pods_TwilioVoice_CallingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,18 +93,18 @@
 		24BA34351D874AC800B0B4F7 /* CallingApp */ = {
 			isa = PBXGroup;
 			children = (
+				87F58D64214B210600E098C2 /* LoginScreen */,
+				87F58D63214B20DE00E098C2 /* CardScreen */,
 				24BA344A1D874D2B00B0B4F7 /* SwiftVoiceCallKitQuickstart.entitlements */,
 				24BA34361D874AC800B0B4F7 /* AppDelegate.swift */,
 				24BA34381D874AC800B0B4F7 /* CallViewController.swift */,
-				87A929A7212D55C500E05C5D /* CustomOverlayView.swift */,
-				87A929A6212D55C500E05C5D /* CustomOverlayView.xib */,
-				87A929AB212D55C600E05C5D /* ExampleOverlayView.swift */,
-				87A929A5212D55C500E05C5D /* KolodaViewController.swift */,
-				87A929AC212D55C600E05C5D /* LoginTypeCell.swift */,
-				87A929AD212D55C600E05C5D /* LoginViewController.swift */,
 				87A929A8212D55C500E05C5D /* NavigationViewController.swift */,
-				87A929A9212D55C500E05C5D /* OverlayView.xib */,
 				24BA343A1D874AC800B0B4F7 /* Main.storyboard */,
+				87C0EE9421544BFB002B4C8A /* ContactCell.swift */,
+				87C0EE922154422F002B4C8A /* AddContactCell.swift */,
+				87F58D61214B20D400E098C2 /* ProfileViewController.swift */,
+				8748B491213DE96900D1F62C /* CardDetailViewController.swift */,
+				8748B48F213DE3A500D1F62C /* LocationViewController.swift */,
 				24BA343D1D874AC800B0B4F7 /* Assets.xcassets */,
 				24BA343F1D874AC800B0B4F7 /* LaunchScreen.storyboard */,
 				24BA34421D874AC800B0B4F7 /* Info.plist */,
@@ -123,6 +131,27 @@
 				3ABBE58CA37C91EF96D7A4DE /* Pods-TwilioVoice-CallingApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		87F58D63214B20DE00E098C2 /* CardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				87A929A7212D55C500E05C5D /* CustomOverlayView.swift */,
+				87A929AB212D55C600E05C5D /* ExampleOverlayView.swift */,
+				87A929A5212D55C500E05C5D /* KolodaViewController.swift */,
+				87A929A6212D55C500E05C5D /* CustomOverlayView.xib */,
+				87A929A9212D55C500E05C5D /* OverlayView.xib */,
+			);
+			path = CardScreen;
+			sourceTree = "<group>";
+		};
+		87F58D64214B210600E098C2 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				87A929AD212D55C600E05C5D /* LoginViewController.swift */,
+				87A929AC212D55C600E05C5D /* LoginTypeCell.swift */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,14 +261,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVoice-CallingApp/Pods-TwilioVoice-CallingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
 				"${PODS_ROOT}/TwilioVoice/TwilioVoice.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVoice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,9 +292,14 @@
 				87A929AE212D55C600E05C5D /* KolodaViewController.swift in Sources */,
 				24BA34391D874AC800B0B4F7 /* CallViewController.swift in Sources */,
 				87A929B5212D55C600E05C5D /* LoginTypeCell.swift in Sources */,
+				87C0EE9521544BFB002B4C8A /* ContactCell.swift in Sources */,
 				87A929B4212D55C600E05C5D /* ExampleOverlayView.swift in Sources */,
 				87A929B6212D55C600E05C5D /* LoginViewController.swift in Sources */,
+				8748B492213DE96900D1F62C /* CardDetailViewController.swift in Sources */,
+				87F58D62214B20D400E098C2 /* ProfileViewController.swift in Sources */,
 				87A929B0212D55C600E05C5D /* CustomOverlayView.swift in Sources */,
+				87C0EE932154422F002B4C8A /* AddContactCell.swift in Sources */,
+				8748B490213DE3A500D1F62C /* LocationViewController.swift in Sources */,
 				87A929B1212D55C600E05C5D /* NavigationViewController.swift in Sources */,
 				24BA34371D874AC800B0B4F7 /* AppDelegate.swift in Sources */,
 			);
